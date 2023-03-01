@@ -1,6 +1,7 @@
 //Create a Discord bot sing openAI API that interacts on the Discord server
 require("dotenv").config();
 //
+
 //Prepare to connect to the Discord API
 const {Client, GatewayIntentBits} = require('discord.js')
 const client= new Client({ intents:[
